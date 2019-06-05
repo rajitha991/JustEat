@@ -35,7 +35,8 @@ Please describe yourself using JSON.
       "Agile Scrum",
       "Waterfall",
       "Quality Engineering",
-      "SDLC"
+      "SDLC",
+      "Digital Online Banking"
    ],
    "certifications":[  
       "ISTQB Foundation Level",
