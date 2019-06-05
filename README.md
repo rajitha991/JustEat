@@ -1,5 +1,5 @@
 # JustEat
-Maven project implemented to test search restaurants using TestNG
+Maven project implemented to test search restaurants functionality in JustEat.uk using TestNG.
 
 Important Points:
 1. All configuration file is placed in "config.properties" file which is available in src\main\java\com\ConfigFiles\config.properties
@@ -8,16 +8,16 @@ Important Points:
 4. Please execute this program from testng.xml [Right click on testng.xml and run as TestNG Suite.
 5. Browser exe driver files are available in resources folder.
 
-***************************Working of Program**********************************************************************
+***************************Working of Program**************************
 Scenario 1: Search retuarant result display when searched with Postal Code "AR51 1AA"
-Scenario 2: Verify the error message is displayed when invalid Postal Code is displayed.
-Scenario 3: Verify the sort functionality after changing the Location.
+Scenario 2: Verify the error message displayed when invalid Postal Code is entered
+Scenario 3: Verify the search result sort functionality based on distance after changing the Location once
 
 *******************************Steps to Execute************************
 Install Java and Eclipse IDE
 Import the project from Git
 Install Maven and set the environment variables
-To run from maven provide below commands in command prompt in project paths:
+To run from maven provide below commands in command prompt at project location:
 mvn test-compile
 mvn test
 OR Update the Maven dependencies
